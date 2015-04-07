@@ -27,6 +27,14 @@ DIGITS has several dependencies.
 
 Full installation directions are at [Caffe](http://caffe.berkeleyvision.org/installation.html). Condensed version is as follows:
 
+<pre>
+export CUDA_HOME=/usr/local/cuda-6.5 
+export LD_LIBRARY_PATH=${CUDA_HOME}/lib64 
+ 
+PATH=${CUDA_HOME}/bin:${PATH} 
+export PATH
+</pre>
+
 Install caffe:
 <pre>
 % sudo apt-get install git
